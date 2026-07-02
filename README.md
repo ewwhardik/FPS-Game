@@ -1,6 +1,8 @@
 # poopFPS: WebStrike 🌴🔫
  
 > A browser FPS that runs entirely in one `index.html` file, held together by `Math.random()` and spite.
+
+ ![Alt Text](./preview.png)
  
 Ten levels. Bots that occasionally develop object permanence. A jungle so dense you'll question your life choices before you question your K/D. Built with Three.js, several energy drinks, and the emotional resilience to keep debugging raycasting at 2 AM.
  
