@@ -692,7 +692,7 @@ const muzzleObj=new THREE.Object3D(); gunHolder.add(muzzleObj);
 scene.add(camera);
 
 const WEAPONS=[
-  {name:'PISTOL',  dmg:24, rate:280, mag:12, reserve:60,  spread:0.007, auto:false, pellets:1, range:18, falloffRange:34,
+  {name:'PISTOL',  dmg:25, rate:280, mag:12, reserve:60,  spread:0.007, auto:false, pellets:1, range:18, falloffRange:34,
    recoil:{v:0.016,h:0.007,recover:8}, bloomPerShot:0.15, maxBloom:0.6, bloomDecay:2.5, scope:'iron', aimFOV:55, tracer:{color:0xffe083,len:0.12,speed:95}, build:buildPistol, kick:0.045,
    reloadTime:1000, switchTime:280, pattern:[[0,1],[0.2,1.2],[-0.3,1.4],[0.1,1.6]]},
   {name:'SMG',     dmg:13, rate:95,  mag:30, reserve:150, spread:0.024, auto:true,  pellets:1, range:14, falloffRange:28,
